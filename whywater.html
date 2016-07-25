@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Practicing Front end development with charitywater.org">
+  		<meta name="author" content="mladjone">
+  		<meta name="keywords" content="practice, mladjone, front end, charitywater">
+		<title>charity water</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/skeleton.css">
+		<link href='https://fonts.googleapis.com/css?family=Biryani' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+		<script type="text/javascript" src="lib/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
+		<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5" media="screen" />
+	</head>
+	<body>
+		<aside class="rightCanvasMenu">
+			<ul>
+				<li>
+					<a href="/account/login">
+						<button class="signInButton">SIGN IN</button>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.charitywater.org/">Home</a>
+				</li>
+				<li>
+					<a href="/donate">Donate</a>
+				</li>
+				<li>
+					<a href="whywater.html">Why Water?</a>
+				</li>
+				<li>
+					<a href="projects.html">Water Projects</a>
+				</li>
+				<li>
+					<a href="https://www.charitywater.org/birthdays">Birthdays</a>
+				</li>
+				<li>
+					<a href="about.html">About Us</a>
+				</li>
+			</ul>
+		</aside>
+	<div class="megaWrapper">
+		<header>
+			<nav class="navBar otherPagesNavBar">
+				<aside class="leftSide">
+					<section class="logo">
+						<a href="https://www.charitywater.org/">
+							<img src="Images/main-logo-lg-black.png">
+						</a>
+					</section>
+					<ul class="navItems">
+						<li>
+							<a href="whywater.html">WHY WATER?</a>
+						</li>
+						<li>
+							<a href="projects.html">OUR WORK</a>
+						</li>
+						<li>
+							<a href="about.html">ABOUT US</a>
+						</li>
+					</ul>
+				</aside>
+				<aside class="rightSide">
+					<ul class="navItems">
+						<li>
+							<a class="navButton" href="/donate">DONATE</a>
+							<div class="dropdown">
+								<a href="/donate/direct">GIVE ONCE</a>
+								<a href="/donate/monthly">GIVE MONTHLY</a>
+								<a href="/donate/sponsor">SPONSOR A COMMUNITY</a>
+							</div>
+						</li>
+						<li>
+							<a class="navButton" href="https://www.charitywater.org/fundraising">FUNDRAISE</a>
+							<div class="dropdown">
+								<a href="https://www.charitywater.org/fundraising">LEARN TO FUNDRAISE</a>
+								<a href="/campaigns/new">START A CAMPAIGN</a>
+								<a href="/birthdays">PLEDGE YOUR BIRTHDAY</a>
+							</div>
+						</li>
+						<li>
+							<a class="log-in" href="/account/login">SIGN IN</a>
+						</li>
+					</ul>
+				</aside>
+				<aside class="openMenu">
+					<i class="fa fa-bars"></i>
+				</aside>
+			</nav>
+		</header>
+
+		<section class="whywaterHero">
+			<section class="heroText">
+				<h1>Why Water?</h1>
+				<p>For people in developing countries, clean water can change everything.</p>
+				<a class="playButtonWhywater fancyvideo" href="https://player.vimeo.com/video/140235935?api=1&title=0&byline=0&portrait=0&player_id=vid140235935" rel="video">
+					<i class="fa fa-play" aria-hidden="true"></i>
+					<span class="text">WATCH THE VIDEO</span>
+				</a>
+			</section>
+
+			<video class="whywaterHeroVideo" autoplay="autoplay" loop="">
+            	<source src="Videos/moon-walk.mp4" type="video/mp4">
+            	<source src="Videos/moon-walk.webm" type="video/webm">
+            	<source src="Videos/moon-walk.ogv" type="video/ogg">
+          	</video>
+
+		</section>
+
+		<section class="firstWhywater">
+			<h2>663 million people in the world live without clean water.
+				<span data-toggle="modal" data-target="#modal-1">
+					<sup>1</sup>
+				</span>
+			</h2>
+			<p>That’s nearly 1 in 10 people worldwide. Or, twice the population of the United States. The majority live in isolated rural areas and spend hours every day walking to collect water for their family. Not only does walking for water keep kids out of school or take up time that parents could be using to earn money, but the water often carries diseases that can make everyone sick.</p>
+			<p>But access to clean water means education, income and health - especially for women&nbsp;and&nbsp;kids.</p>
+		</section>
+		<span class="firstWhywaterSub"></span>
+
+		<section class="secondWhywater">
+        	<h2 class="secondWhywaterFirstH2">Clean water changes everything.</h2>
+        	<section class="content">
+				<article class="row">
+					<aside class="six columns">
+						<h3 class="secondWhywater1H3">Health</h3>
+						<h4>Diseases from dirty water kill more people every year than all forms of violence, including war.</h4>
+						<p>43% of those deaths are children under five years old. Access to clean water and basic sanitation can save around 16,000 lives every week.
+						 	<span data-toggle="modal" data-target="#modal-2">
+						 		<sup class="source-number">2</sup>
+						 	</span>
+						</p>
+					</aside>
+					<aside class="six columns">
+						<h3 class="secondWhywater2H3">Time</h3>
+						<h4>In Africa alone, women spend 40 billion hours a year walking for water.
+							<span data-toggle="modal" data-target="#modal-3">
+						 		<sup class="source-number">3</sup>
+						 	</span>
+						 	<span data-toggle="modal" data-target="#modal-4">
+						 		<sup class="source-number">4</sup>
+						 	</span>
+						</h4>
+						<p>Access to clean water gives communities more time to grow food, earn an income, and go to school -- all of which fight poverty.</p>
+					</aside>
+				</article>
+				<article class="row">
+					<aside class="six columns">
+						<h3 class="secondWhywater3H3">Education</h3>
+						<h4>Clean water helps keep kids in school, especially girls.</h4>
+						<p>Less time collecting water means more time in class. Clean water and proper toilets at school means teenage girls don’t have to stay home for a week out of every month.</p>
+					</aside>
+					<aside class="six columns">
+						<h3 class="secondWhywater4H3">Women Empowerment</h3>
+						<h4>Women are responsible for 72% of the water collected in Sub-Saharan Africa.
+							<span data-toggle="modal" data-target="#modal-5">
+						 		<sup class="source-number">5</sup>
+						 	</span>
+						</h4>
+						<p>When a community gets water, women and girls get their lives back. They start businesses, improve their homes, and take charge of their own futures.</p>
+					</aside>
+				</article>
+			</section>
+
+			<section class="newSecondWhywater">
+				<h2 class="secondWhywaterSecondH2">How do we tackle the water crisis?</h2>
+	          	<p>We work with local experts and community members to find the best sustainable solution in each place where we work, whether it’s a well, a piped system, a BioSand Filter, or a system for harvesting rainwater. And with every water point we fund, our partners coordinate sanitation and hygiene training, and establish a local Water Committee to help keep water flowing for years to come.</p>
+	          	<a class="learnSmall" href="/projects">Learn More</a>
+	        </section>	
+		</section>
+		<span class="secondWhywaterSub"></span>
+
+		<section class="thirdWhywater">
+			<h2>Access to clean water changed the lives of Hadjara, Umu, Natalia, and Devison. Read their stories.</h2>
+			<div class="pickSlide">
+				<h3 id="showSlideOne" class="secondWhywater1H3 activate">HEALTH</h3>
+				<h3 id="showSlideTwo" class="secondWhywater2H3">TIME</h3>
+				<h3 id="showSlideThree" class="secondWhywater3H3">EDUCATION</h3>
+				<h3 id="showSlideFour" class="secondWhywater4H3">WOMEN</h3>
+			</div>
+			<section class="slidesWrapper">
+				<ul class="slidesContainer">
+					<li class="slides slideOne">
+						<aside class="leftSlide">
+							<p>Hadjara learned about the importance of handwashing in school. Then she went home and taught her family about it, too. Now, her family is healthier than&nbsp;ever.</p>
+							<img src="Images/hadjara.jpg">
+							<a class="buttonYellow" href="https://medium.com/charity-water/not-unless-you-wash-your-hands-b222c9fc848c" target="_blank">Meet Hadjara</a>
+						</aside>
+						<aside class="rightSlide"></aside>
+					</li>
+					<li class="slides slideTwo">
+						<aside class="leftSlide">
+							<p>Since her village received clean water, Umu has had lots more time to braid hair. Now, business&nbsp;is&nbsp;booming.</p>
+							<img src="Images/umu.jpg">
+							<a class="buttonOrange" href="https://medium.com/charity-water/umus-story-99e7f6ce7a0e" target="_blank">Meet Umu</a>
+						</aside>
+						<aside class="rightSlide"></aside>
+					</li>
+					<li class="slides slideThree">
+						<aside class="leftSlide">
+							<p>Before Natalia’s village had a clean water tap, she often didn’t have time for school. Now, she goes to school every day and she’s the President of her local Water Committee. And she’s just getting&nbsp;started.</p>
+							<img src="Images/natalia.jpg">
+							<a class="buttonOrange" href="https://medium.com/charity-water/the-15-year-old-president-3e4d190adc7f" target="_blank">Meet Natalia</a>
+						</aside>
+						<aside class="rightSlide"></aside>
+					</li>
+					<li class="slides slideFour">
+						<aside class="leftSlide">
+							<p>Devison decided it wasn’t fair for him to go to school while his sister walked to get water. So he decided to do&nbsp;something.</p>
+							<img src="Images/devison.jpg">
+							<a class="buttonYellow" href="https://charitywater.exposure.co/the-boy-who-walked-for-water" target="_blank">Meet Devison</a>
+						</aside>
+						<aside class="rightSlide"></aside>
+					</li>
+				</ul>
+			</section>
+		</section>
+
+		<section class="fourthWhywater">
+			<div class="insideFourthWhywater">
+           		<h2>Every $1 invested in clean water can yield $4–$12 in economic returns.
+           			<span data-toggle="modal" data-target="#modal-6">
+						<sup class="source-number">6</sup>
+					</span>
+           		</h2>
+            	<p>It’s a solid investment; access to clean water is perhaps the single most powerful tool for sparking economic growth that humanity has&nbsp;ever&nbsp;known.</p>
+            	<a class="playButton" href="https://donate.charitywater.org/donate">Donate Now</a>
+          	</div>
+		</section>
+
+		<section class="fifthWhywater">
+			<h3>Here are three ways you can help.</h3>
+			<p>The craziest thing we can do is nothing.</p>
+			<section class="content">
+				<article class="row">
+					<aside class="four columns fifthWhywaterDonate">
+						<a href="https://donate.charitywater.org/donate">
+							<div>
+								<p>Give $30 and change someone’s life.</p>
+								<button>DONATE</button>
+							</div>
+						</a>
+					</aside>
+					<aside class="four columns fifthWhywaterPledge">
+						<a href="https://donate.charitywater.org/birthdays">
+							<div>
+								<p>Pledge your next birthday for clean water.</p>
+								<button>PLEDGE</button>
+							</div>
+						</a>
+					</aside>
+					<aside class="four columns fifthWhywaterFundraise">
+						<a href="https://donate.charitywater.org/campaigns/new">
+							<div>
+								<p>Do something crazy or creative to raise money.</p>
+								<button>FUNDRAISE</button>
+							</div>
+						</a>
+					</aside>
+				</article>
+			</section>
+		</section>
+
+		<footer>
+			<section class="content">
+				<article class="row">
+					<ul class="three columns">
+						<li>get to know us</li>
+						<li>
+							<a href="https://www.charitywater.org/blog/">read our blog</a>
+						</li>
+						<li>
+							<a href="https://www.charitywater.org/projects/stories/">field stories</a>
+						</li>
+						<li>
+							<a href="https://www.charitywater.org/about/staff.php">meet our staff</a>
+						</li>
+					</ul>
+					<ul class="three columns">
+						<li>connect</li>
+						<li>
+							<a href="https://www.charitywater.org/contact/">contact us</a>
+						</li>
+						<li>
+							<a href="http://support.charitywater.org/hc/en-us">help center</a>
+						</li>
+						<li>
+							<a href="https://www.charitywater.org/media/speaker_form.php">request a speaker</a>
+						</li>
+					</ul>
+					<ul class="three columns">
+						<li>resources</li>
+						<li>
+							<a href="https://www.charitywater.org/media/downloads.php">download assets</a>
+						</li>
+						<li>
+							<a href="https://www.charitywater.org/about/financials.php">see financials</a>
+						</li>
+						<li>
+							<a href="https://www.charitywater.org/about/contributors.php">in-kind donors</a>
+						</li>
+					</ul>
+					<ul class="three columns">
+						<li>get involved</li>
+						<li>
+							<a href="https://www.charitywater.org/getinvolved/volunteer_form.php">volunteer</a>
+						</li>
+						<li>
+							<a href="https://www.charitywater.org/partnerships/">brand partnerships</a>
+						</li>
+						<li>
+							<a href="https://store.charitywater.org/">shop our store</a>
+						</li>
+					</ul>
+				</article>
+				<ol>
+					<li>charity: water is a 501 (c)(3)</li>
+					<li>
+						<a href="https://www.charitywater.org/privacy/">privacy policy</a>
+					</li>
+					<li>©2016</li>
+					<li>
+						<a href="http://nytm.org/made-in-nyc" target="_blank">
+							made with
+							<i class="fa fa-heart" aria-hidden="true"></i>
+							in nyc
+						</a>
+					</li>
+					<li>
+						<a href="https://www.charitywater.org/about/jobs/">we’re hiring</a>
+					</li>
+					<li>
+						<a href="https://my.charitywater.org/mailing_list_subscribers/new">get our awesome emails</a>
+					</li>
+				</ol>
+				<ul class="socialMedia">
+					<li>
+						<a href="https://twitter.com/charitywater" target="_blank">
+							<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/charitywater" target="_blank">
+							<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/charitywater/" target="_blank">
+							<i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.snapchat.com/add/charitywater" target="_blank">
+							<i class="fa fa-snapchat-ghost fa-2x" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.youtube.com/user/charitywater" target="_blank">
+							<i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i>
+						</a>
+					</li>
+				</ul>
+			</section>
+		</footer>
+	</div>
+		<script src="main.js" type="text/javascript"></script>
+	</body>
+</html>
